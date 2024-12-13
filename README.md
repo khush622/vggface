@@ -13,7 +13,7 @@ Oxford VGGFace  Implementation using Keras Functional Framework v2+
 - If you don't know where to start check the [blog posts](https://github.com/rcmalli/keras-vggface#projects--blog-posts) that are using this library.
 
 ~~~bash
-pip install git+https://github.com/yaledhlab/vggface.git
+pip install git+https://github.com/khush622/vggface.git 
 ~~~
 
 
