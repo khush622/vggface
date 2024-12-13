@@ -112,6 +112,7 @@ def VGG16(include_top=True, weights='vggface',
             weights_path = get_file('rcmalli_vggface_tf_notop_vgg16.h5',
                                     utils.VGG16_WEIGHTS_PATH_NO_TOP,
                                     cache_subdir=utils.VGGFACE_DIR)
+        print("Weights path:", weights_path)
         model.load_weights(weights_path, by_name=True)
         if K.backend() == 'theano':
             layer_utils.convert_all_kernels_in_model(model)
