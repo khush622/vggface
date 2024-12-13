@@ -8,7 +8,7 @@
 
 
 import numpy as np
-from tensorflow.python.keras.utils import get_file
+from tensorflow.keras.utils import get_file
 
 V1_LABELS_PATH = 'https://github.com/rcmalli/keras-vggface/releases/download/v2.0/rcmalli_vggface_labels_v1.npy'
 V2_LABELS_PATH = 'https://github.com/rcmalli/keras-vggface/releases/download/v2.0/rcmalli_vggface_labels_v2.npy'
